@@ -1,5 +1,4 @@
 body{
-    display: flex;
     padding: 0;
     margin: 0;
     font-family: "Helvetica Now Text", "Helvetica", "Arial", "sans-serif";
@@ -49,6 +48,11 @@ body{
 }
 .navBar4{
     width: 5%;
+}
+/*to set the size of image icons on menu bar*/
+#navBarButtons img{
+    height: 40px;
+    width: 40px;
 }
 /*to set the size of image icons on menu bar*/
 #navBarButtons img{
@@ -111,10 +115,11 @@ body{
 }
 .topPicksContainer{
     width: 100%;
-    max-width: 600px;
+    max-width:500px;
     max-height: 650px;
     border: 1px solid;
     text-align: center;
+    margin-bottom: 50px;
 }
 #checkOutBtn{
     width: 100%;
