@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce Login</title>
+        <link rel="stylesheet" href="C:\Users\Keith Jasper\Desktop\dev folder\finaloutput\css\style.css">
+        <script src="C:\Users\Keith Jasper\Desktop\dev folder\finaloutput\javascript\script.js"></script>
+    </head>
+    <body>
+         <!-------------------Menu Bar------------------>
+        <div class="navigationBar">    
+            <div class="navBar1">
+                <h1>LOGO</h1>
+            </div>
+            <div class="navBar2">
+                <input type="text" placeholder="Search..">            
+            </div>       
+            <div class="navBar3">            
+                <input id="navBarButtons" type="image" src="images\CartVector.png">                
+            </div>
+            <div class="navBar4">              
+                <input id="navBarButtons" type="image" src="C:\Users\Keith Jasper\Desktop\dev folder\finaloutput\images\LoginVector.png">                    
+            </div>
+        </div>
+        <!-------------------End of Menu Bar------------------>
+        
+        
+        <div class="loginBodyContainer">
+            <!--LOGIN FIELD-->
+            <div id="loginFieldContainer">
+                <table class="tableForLogin">
+                    <tr>
+                        <td>
+                            <p>LOG IN</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="EMAIL">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>                       
+                            <input type="password" placeholder="PASSWORD">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="">Have you fortten your password?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="loginBtn">LOG IN</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="registerBtnLogin" onclick="registerFunction()">REGISTER</button>
+                        </td>
+                    </tr>
+                </table>                
+            </div>
+             <!--LOGIN FIELD END OF LINE-->
+
+            <div id="registerFieldContainer">
+                <form>
+                    <table class="tableForLogin">
+                        <tr>
+                            <td>
+                                <p>PERSONAL DETAILS</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="EMAIL">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" placeholder="PASSWORD">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="FIRST NAME">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="SURNAME">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="registerBtnLogin">CREATE ACCOUNT</button>
+                            </td>
+                        </tr>
+                    </table>
+                 </form>
+            </div>
+            <img class="loginBG" src="C:\Users\Keith Jasper\Desktop\dev folder\finaloutput\images\LogoBG.png">
+        </div>
+    </body>
+</html>
