@@ -1,3 +1,54 @@
+.navigationBar {
+    display: flex;
+    width: 100%;
+    margin:0;
+    top:0;
+    overflow: hidden;
+    height: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(9.8px);
+}
+.navigationBar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar a{
+    text-decoration: none;
+    color: black;
+}
+.navBar1{
+    min-width: 360px;
+    width: 90%;
+}
+.navBar2{
+    width: 400px;
+}
+.navBar2 input{
+    width:90%;
+    max-width: 200px;
+    top: 50px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+}
+.navBar2 input:hover{
+    background: rgb(255, 255, 255);
+}
+.navBar3{
+    width: 5%;
+}
+.navBar4{
+    width: 5%;
+}
+/*to set the size of image icons on menu bar*/
+#navBarButtons img{
+    height: 40px;
+    width: 40px;
+}
 /*------------------login page styles-----------------*/
 .loginBG{
     height: 50%;
